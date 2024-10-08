@@ -1,0 +1,27 @@
+{
+  "name": "kenkoron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/bot.js",
+    "dev": "ts-node src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "fast-html-parser": "^1.0.1",
+    "pdftopic": "1.0.4-alpha",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/fast-html-parser": "^1.0.4",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,4 @@
+services:
+  kenkoron:
+    build: .
+    restart: always
