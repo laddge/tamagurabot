@@ -32,7 +32,7 @@ client.once('ready', async () => {
       const newCache: Cache = { dates: [] }
       for (const post of articles) {
         const title = post.querySelector('.post-title')?.text;
-        if (!title?.includes('健康論')) continue;
+        if (!title?.includes('体力つくり実習')) continue;
         const date = post.querySelector('.date')?.attributes.datetime;
         if (!date) continue;
         newCache.dates.push(date);
